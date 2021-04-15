@@ -1,0 +1,58 @@
+.menu {
+    border: 5px solid red;
+}
+.menu-item {
+    text-align: center;
+    border: 5px solid red;
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    color: yellow;
+    width: 200px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 200px;
+}
+.str_one ,.str_two, .str_there
+{
+    position: relative;
+    border: 2px solid red;
+    background-color: blue;
+    height: 18px;
+    text-align: center;
+}
+.str_one
+{
+    top:10px;   
+}
+.str_two
+{
+    top:30px;
+}
+.str_there
+{
+    top:50px;
+}
+
+.menu-item:hover
+{
+    border: 5px solid red;
+    background-color: red;
+}
+
+.str_one:hover{
+    border: 2px solid red;
+    background-color: red;
+}
+.str_there:hover{
+    border: 2px solid red;
+    background-color: red;
+}
+
+.str_two:hover{
+    border: 2px solid red;
+    background-color: red;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>LAB-10</title>
+</head>
+<body onload="onload_page()">
+    <table>
+        <tr>
+            <td><div>Факультет:</div></td>
+            <td>
+                <select onchange="select_facult(this)" id="select_facult">
+                    <option disabled selected>Выберите Факультет</option>
+                    <option value="IVT">ИВТ</option>
+                    <option value="MTC">MТС</option>
+                </select>
+            
+            </td>
+            <td><div>Курс:</div></td>
+            <td>   
+                <select onchange="select_course(this)" id="select_course">
+                    <option disabled selected>Выберите Курс</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </td>
+            <td><div>Группа:</div></td>
+            <td>
+                <select onchange="select_groop(this)" id="select_groop">
+                    <option disabled selected>Выберите Группу</option>
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+              </select>
+            </td>
+            <td><div>ФИО:</div></td>
+            <td>
+                <select onchange="select_name(this)" id="select_name">
+                    <option disabled selected>Выберите Студента</option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                  </select>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <td>Предмет</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Метрология, Стандартизация и Сертефикация</td>
+            <td><input name="metrologia" id="metrologia0" type="radio" value="0" checked></td>
+            <td><input name="metrologia" id="metrologia1" type="radio" value="1"></td>
+            <td><input name="metrologia" id="metrologia2" type="radio" value="2"></td>
+        </tr>
+        <tr>
+            <td>Обьектно Ориентированное Програмирование</td>
+            <td><input name="OOP" id="OOP0" type="radio" value="0" checked></td>
+            <td><input name="OOP" id="OOP1" type="radio" value="1"></td>
+            <td><input name="OOP" id="OOP2" type="radio" value="2"></td>
+        </tr>
+        <tr>
+            <td>Архитектура Вычислительных систем</td>
+            <td><input name="Arxcetectyra" id="Arxcetectyra0" type="radio" value="0" checked></td>
+            <td><input name="Arxcetectyra" id="Arxcetectyra1" type="radio" value="1"></td>
+            <td><input name="Arxcetectyra" id="Arxcetectyra2" type="radio" value="2"></td>
+        </tr>
+        <tr>
+            <td>Теория Массового Обслуживания</td>
+            <td><input name="teoria" id="teoria0" type="radio" value="0" checked></td>
+            <td><input name="teoria" id="teoria1" type="radio" value="1"></td>
+            <td><input name="teoria" id="teoria2" type="radio" value="2"></td>
+        </tr>
+        <tr>
+            <td>Экономика</td>
+            <td><input name="economic" id="economic0" type="radio" value="0" checked></td>
+            <td><input name="economic" id="economic1" type="radio" value="1"></td>
+            <td><input name="economic" id="economic2" type="radio" value="2"></td>
+        </tr>
+        <tr>
+            <td>Базы Данных</td>
+            <td><input name="BazaD" id="BazaD0" type="radio" value="0" checked></td>
+            <td><input name="BazaD" id="BazaD1" type="radio" value="1"></td>
+            <td><input name="BazaD" id="BazaD2" type="radio" value="2"></td>
+        </tr>
+        <tr>
+            <td>Физическая Культура</td>
+            <td><input name="fizra" id="fizra0" type="radio" value="0" checked></td>
+            <td><input name="fizra" id="fizra1" type="radio" value="1"></td>
+            <td><input name="fizra" id="fizra2" type="radio" value="2"></td>
+        </tr>
+    </table>
+    <br>
+    <div id="SR_BALL">Средний балл за контрольный срок составляет:</div>
+    <input type="submit" name="send" value="Отправить" onclick="foo2()"/>
+    <input type="submit" name="send" value="Отменить" onclick="foo3()"/>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

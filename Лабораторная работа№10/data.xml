@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+    <facultyIVT>
+        <course1 groop1 = "ИВ-021" groop2 = "ИВ-022" groop3 = "ИВ-023">
+            <groop_ИВ-021>
+                <student>
+                    <name>Cавостин Дмитрий</name>
+                </student>
+                <student>
+                    <name>Харитонова Елена</name>
+                </student>
+            </groop_ИВ-021>
+            <groop_ИВ-022 >   
+                <student>
+                    <name>Анфимов Артур</name>
+                </student>
+                <student>
+                    <name>Бояркин Александр</name>
+                </student>
+            </groop_ИВ-022>
+            <groop_ИВ-023>
+                <student>
+                    <name>Вагнер Кирилл</name>
+                </student>
+                <student>
+                    <name>Ващенко Андрей</name>
+                </student>
+            </groop_ИВ-023>
+        </course1>
+        <course2 groop1 = "ИВ-921" groop2 = "ИВ-922" groop3 = "ИВ-923">
+            <groop_ИВ-921>
+                <student>
+                    <name>Гоц Екатерина</name>
+                </student>
+                <student>
+                    <name>Гусаров Алексей</name>
+                </student>
+            </groop_ИВ-921>
+            <groop_ИВ-922>
+                <student>
+                    <name>Довладбекян Елизавета</name>
+                </student>
+                <student>
+                    <name>Захаров Ярослав</name>
+                </student>
+            </groop_ИВ-922>
+            <groop_ИВ-923>
+                <student>
+                    <name>Матвеев Алексей</name>
+                </student>
+                <student>
+                    <name>Гусаров Алексей</name>
+                </student>
+            </groop_ИВ-923>
+        </course2>
+        <course3 groop1 = "ИВ-821" groop2 = "ИВ-822" groop3 = "ИВ-823">
+            <groop_ИВ-821>
+                <student>
+                    <name>Кожевников Илья</name>
+                </student>
+                <student>
+                    <name>Богер Дмитрий</name>
+                </student>
+            </groop_ИВ-821>
+            <groop_ИВ-822>
+                <student>
+                    <name>Cавостин Дмитрий</name>
+                </student>
+                <student>
+                    <name>Харитонова Елена</name>
+                </student>
+            </groop_ИВ-822>
+            <groop_ИВ-823>
+                <student>
+                    <name>Cавостин Дмитрий</name>
+                </student>
+                <student>
+                    <name>Харитонова Елена</name>
+                </student>
+            </groop_ИВ-823>
+        </course3>
+    </facultyIVT>
+    <facultyMTC>
+        <course1 groop1 = "МТ-021" groop2 = "МТ-022" groop3 = "МТ-023">
+            <groop_МТ-021>
+                <student>
+                    <name>Шарафаненко Андрей</name>
+                </student>
+                <student>
+                    <name>Чен Егор</name>
+                </student>
+            </groop_МТ-021>
+            <groop_МТ-022>
+                <student>
+                    <name>Тихонов Дмитрий</name>
+                </student>
+                <student>
+                    <name>Еньшин Данил</name>
+                </student>
+            </groop_МТ-022>
+            <groop_МТ-023>
+                <student>
+                    <name>Захаров Ярослав</name>
+                </student>
+                <student>
+                    <name>Рахматулин Кирилл</name>
+                </student>
+            </groop_МТ-023>
+        </course1>
+        <course2 groop1 = "МТ-921" groop2 = "МТ-922" groop3 = "МТ-923">
+            <groop_МТ-921>
+                <student>
+                    <name>Cавостин Дмитрий</name>
+                </student>
+                <student>
+                    <name>Харитонова Елена</name>
+                </student>
+            </groop_МТ-921>
+            <groop_МТ-922>
+                <student>
+                    <name>Левин Иван</name>
+                </student>
+                <student>
+                    <name>Чащин Илья</name>
+                </student>
+            </groop_МТ-922>
+            <groop_МТ-923>
+                <student>
+                    <name>Жигачева Марина</name>
+                </student>
+                <student>
+                    <name>Арбузова Вера</name>
+                </student>
+            </groop_МТ-923>
+        </course2>
+        <course3 groop1 = "МТ-821" groop2 = "МТ-822" groop3 = "МТ-823">
+            <groop_МТ-821>
+                <student>
+                    <name>Савостин Евгений</name>
+                </student>
+                <student>
+                    <name>Харитонова Анатолий</name>
+                </student>
+            </groop_МТ-821>
+            <groop_МТ-822>
+                <student>
+                    <name>Cавостина Ольга</name>
+                </student>
+                <student>
+                    <name>Харитонова Евгения</name>
+                </student>
+            </groop_МТ-822>
+            <groop_МТ-823>
+                <student>
+                    <name>Демышева Яна</name>
+                </student>
+                <student>
+                    <name>Демышев Иван</name>
+                </student>
+            </groop_МТ-823>
+        </course3>
+    </facultyMTC>
+</students>
